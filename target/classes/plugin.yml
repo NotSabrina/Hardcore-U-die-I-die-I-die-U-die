@@ -1,0 +1,41 @@
+name: HardcorePlus-UdieIdie.IdieUdie
+description: Hardcore team-linking plugin — when one dies, the team dies
+prefix: HardcorePlus
+version: '1.0'
+
+main: me.supramental.hardcorePlusUDieIDieIDieUDie.HardcorePlusUDieIDieIDieUDie
+api-version: '1.20'
+load: POSTWORLD
+
+authors: [ Supramental ]
+
+commands:
+  HPUDIDIDUD:
+    description: HardcorePlus main command
+    usage: /HPUDIDIDUD <help|reload|split|teams|reset|request|accept|decline>
+    aliases:
+      - HardcorePlusUDieIDieIDieUDie
+      - hpud
+
+permissions:
+  HPUDIDIDUD.reload:
+    description: Reload plugin config
+    default: op
+  HPUDIDIDUD.split:
+    description: Split players into teams
+    default: op
+  HPUDIDIDUD.reset:
+    description: Clear team data
+    default: op
+  HPUDIDIDUD.teams:
+    description: View team assignments
+    default: true
+  HPUDIDIDUD.request:
+    description: Send a team request (choose mode)
+    default: true
+  HPUDIDIDUD.accept:
+    description: Accept a team request
+    default: true
+  HPUDIDIDUD.decline:
+    description: Decline a team request
+    default: true

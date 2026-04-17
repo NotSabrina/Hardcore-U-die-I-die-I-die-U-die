@@ -1,0 +1,17 @@
+# HardcorePlus - U die I die | I die U die
+# Worlds listed here will be ignored by the plugin entirely
+blacklisted-worlds:
+  - "spawn_world"
+  - "lobby"
+
+plugin-settings:
+  # Whether to broadcast a message when all players are eliminated
+  enable-broadcast: true
+  broadcast-message: "§c[Hardcore+] All players in {world} have been eliminated!"
+
+  # Does the plugin need hardcore mode to work, default: true
+  require-hardcore: true
+
+  # How many seconds players have to pick their team in "choose" mode
+  # before unmatched players are auto-assigned
+  team-request-timeout-seconds: 60
