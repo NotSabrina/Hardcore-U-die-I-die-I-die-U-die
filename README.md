@@ -46,9 +46,9 @@ plugin-settings:
 
   # Does the plugin need hardcore mode to work, default: true
   require-hardcore: true
-
+  
   # How many seconds players have to pick their team in "choose" mode
   # before unmatched players are auto-assigned
   team-request-timeout-seconds: 60
-
 ```
+<img width="3780" height="1134" alt="Hardcore (Banner Horizontal) (6)" src="https://github.com/user-attachments/assets/871ce3d1-2052-4008-ade6-37f178437cb6" />
