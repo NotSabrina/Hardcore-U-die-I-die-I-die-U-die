@@ -1,4 +1,5 @@
 ![Hardcore+ Horizontal Banner](https://cdn.modrinth.com/data/cached_images/a9eaaf0b06d09afac406a5b01754519707223f76.png)
+
 # Description
 This plugin will add more challenge to players in survival/hardcore mode, players must depend on each other to not die or all of the players will die even if only one of them die
 
